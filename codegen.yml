@@ -1,0 +1,8 @@
+overwrite: true
+#schema: "SpaceX.graphql"
+schema: "https://api.spacex.land/graphql/"
+documents: "launches.graphqls"
+generates:
+  src/gql:
+    preset: "client"
+    plugins: []
